@@ -1,6 +1,6 @@
-npm ci
-npm start 
-http://localhost:3000
+`npm ci`
+`npm start `
+`http://localhost:3000`
 
 
 
