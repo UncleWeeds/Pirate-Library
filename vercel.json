@@ -1,0 +1,13 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "build" }
+    }
+  ],
+  "routes": [
+    // All paths should serve your React entrypoint
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
