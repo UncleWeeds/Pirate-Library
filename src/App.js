@@ -5,11 +5,20 @@ import CategoryPage from './components/CategoryPage';
 
 export default function App() {
   return (
-    <Routes>
-      {/* Home at “/” */}
-      <Route path="/" element={<HomePage />} />
-      {/* Category pages at “/someCategoryId” */}
-      <Route path="/:categoryId" element={<CategoryPage />} />
-    </Routes>
+    <div
+      className="min-h-screen text-white"
+      style={{
+        backgroundImage: "url('/background.jpg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
+      <Routes>
+        {/* Home page */}
+        <Route path="/" element={<HomePage />} />
+        {/* Category pages */}
+        <Route path="/:categoryId" element={<CategoryPage />} />
+      </Routes>
+    </div>
   );
 }
