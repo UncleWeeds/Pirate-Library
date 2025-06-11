@@ -5,15 +5,13 @@ import { categories } from '../data';
 export default function CategoryPage() {
   const { categoryId } = useParams();
   const category = categories.find((c) => c.id === categoryId);
+  const base = process.env.PUBLIC_URL;
 
   if (!category) {
     return (
       <main className="max-w-4xl mx-auto px-4 py-8 text-center">
         <p className="text-xl">Category not found.</p>
-        <Link
-          to="/"
-          className="mt-4 inline-block text-blue-400 hover:underline"
-        >
+        <Link to="/" className="mt-4 inline-block text-blue-400 hover:underline">
           ← Back to home
         </Link>
       </main>
@@ -22,19 +20,15 @@ export default function CategoryPage() {
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
-      <Link to="/" className="text-gray-300 hover:text-white">
-        ← Back
-      </Link>
-
+      <Link to="/" className="text-gray-300 hover:text-white">← Back</Link>
       <header className="text-center my-6">
         <img
-          src={category.icon}
+          src={\`\${base}\${category.icon}\`}
           alt={category.title}
           className="mx-auto w-16 h-16 mb-2"
         />
         <h1 className="text-3xl font-bold">{category.title}</h1>
       </header>
-
       {category.sections.map((section, si) => (
         <section key={si} className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">{section.title}</h2>
