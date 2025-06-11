@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Pirate-Library/static/css/main.2d0bc392.css",
-    "main.js": "/Pirate-Library/static/js/main.fb9ce534.js",
+    "main.css": "/Pirate-Library/static/css/main.199d9bcc.css",
+    "main.js": "/Pirate-Library/static/js/main.d0f0c144.js",
     "static/js/453.77c2208b.chunk.js": "/Pirate-Library/static/js/453.77c2208b.chunk.js",
     "index.html": "/Pirate-Library/index.html",
-    "main.2d0bc392.css.map": "/Pirate-Library/static/css/main.2d0bc392.css.map",
-    "main.fb9ce534.js.map": "/Pirate-Library/static/js/main.fb9ce534.js.map",
+    "main.199d9bcc.css.map": "/Pirate-Library/static/css/main.199d9bcc.css.map",
+    "main.d0f0c144.js.map": "/Pirate-Library/static/js/main.d0f0c144.js.map",
     "453.77c2208b.chunk.js.map": "/Pirate-Library/static/js/453.77c2208b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d0bc392.css",
-    "static/js/main.fb9ce534.js"
+    "static/css/main.199d9bcc.css",
+    "static/js/main.d0f0c144.js"
   ]
 }
