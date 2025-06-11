@@ -7,7 +7,6 @@
     }
   ],
   "routes": [
-    // All paths should serve your React entrypoint
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
