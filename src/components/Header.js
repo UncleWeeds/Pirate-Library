@@ -8,10 +8,10 @@ export default function Header() {
         <img
           src={base + '/logo.png'}
           alt="Pirate Library"
-          className="mx-auto w-32 h-32"
+          className="mx-auto w-50 h-50"
         />
         <h1 className="mt-2 text-xl sm:text-3xl font-bold">
-          Your gateway to entertainment and tools
+          Libraty for all the popular pirate websites, for noobs      by UncleWeeds :)
         </h1>
       </div>
       <div className="w-10 h-10" /> {/* Dark/light toggle */}
