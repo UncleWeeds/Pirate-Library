@@ -21,14 +21,16 @@ export default function CategoryPage() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-8">
       <Link to="/" className="text-gray-300 hover:text-white">← Back</Link>
+
       <header className="text-center my-6">
         <img
-          src={\`\${base}\${category.icon}\`}
+          src={base + category.icon}
           alt={category.title}
           className="mx-auto w-16 h-16 mb-2"
         />
         <h1 className="text-3xl font-bold">{category.title}</h1>
       </header>
+
       {category.sections.map((section, si) => (
         <section key={si} className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">{section.title}</h2>

@@ -9,7 +9,7 @@ export default function App() {
     <div
       className="min-h-screen text-white"
       style={{
-        backgroundImage: \`url('\${base}/background.jpg')\`,
+        backgroundImage: 'url(' + base + '/background.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

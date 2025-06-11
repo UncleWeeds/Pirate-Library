@@ -6,7 +6,7 @@ export default function Header() {
     <header className="flex items-center justify-between px-4 py-6 max-w-4xl mx-auto">
       <div className="flex-1 text-center">
         <img
-          src={\`\${base}/logo.png\`}
+          src={base + '/logo.png'}
           alt="Pirate Library"
           className="mx-auto w-32 h-32"
         />
@@ -14,7 +14,7 @@ export default function Header() {
           Your gateway to entertainment and tools
         </h1>
       </div>
-      <div className="w-10 h-10" /> {/* toggle goes here */}
+      <div className="w-10 h-10" /> {/* Dark/light toggle */}
     </header>
   );
 }
