@@ -2,7 +2,6 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import CategoryPage from './components/CategoryPage';
-import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const base = process.env.PUBLIC_URL;
